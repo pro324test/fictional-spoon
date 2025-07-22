@@ -1,0 +1,20 @@
+{
+  "name": "fictional-spoon",
+  "version": "1.0.0",
+  "description": "TikTok API Client",
+  "main": "main.ts",
+  "scripts": {
+    "start": "ts-node main.ts",
+    "build": "tsc main.ts",
+    "test": "npm run start"
+  },
+  "keywords": ["tiktok", "api", "client"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^24.1.0",
+    "axios": "^1.10.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
